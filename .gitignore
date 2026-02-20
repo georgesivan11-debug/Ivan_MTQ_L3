@@ -1,0 +1,44 @@
+# Environnements virtuels Python
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration locaux
+.env
+*.env
+
+# Jupyter Notebooks (non nécessaires pour le déploiement)
+*.ipynb
+.ipynb_checkpoints/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+
+# Dossier de build
+dist/
+build/
+*.egg-info/
+
+# Figures générées localement
+fig*.png
+*.pdf
